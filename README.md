@@ -1,5 +1,5 @@
 ### Introduction
-This is a set of resources for experimenting with customize chatbots as I talk about in my MacSysAdmin 2023 presentation.
+This is a set of resources for experimenting with customized chatbots as I talk about in my MacSysAdmin 2023 presentation.
 
 The download contains a complete Python 3.10.11 distribution with all the Python requirements pre-installed.
 
