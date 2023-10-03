@@ -16,15 +16,9 @@ Copy any text-based documents into the documents folder. Plain text files, Markd
 
 There are example documents for Munki and AutoPkg in the example_docs folder.
 
-For example, after downloading the .zip file, expanding it, and cding into the expanded msa2023-chatbot directory, you can copy the example Munki documents into place and start the chatbot:
+There are scripts to assist in copying the example documents into place; you can run `setup_munki_chatbot.sh` to copy the Munki documentation into place, or run `setup_autopkg_chatbot.sh` to copy the AutoPkg documentation into place.
 
-```
-rm documents/README.txt
-cp -R example_docs/munki/* documents
-./run_local_chatbot.sh
-```
-
-Ensure the index_storage directory is empty any time you change the contents of the documents folder or you change the embedding engine.
+If you manually make changes to the documents folder, ensure the index_storage directory is empty any time you change the contents of the documents folder or you change the embedding engine.
 
 Run the `run_local_chatbot.sh` script to start up a local chatbot. The first time you do this, it will take several minutes to download an LLM model file, an embeddings model file, and to process and embed the documents into an index. Subsequent launches will use cached files and will be much faster.
 
