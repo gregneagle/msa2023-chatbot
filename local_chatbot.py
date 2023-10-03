@@ -124,7 +124,7 @@ chat_engine = index.as_chat_engine(
     memory=memory,
 )
 
-response = chat_engine.chat("Hello! What do you know?")
+response = chat_engine.chat("Hello!")
 print(response)
 
 while True:
